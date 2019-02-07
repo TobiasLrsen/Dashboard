@@ -6,10 +6,10 @@
  */
 class dbconf extends db {
     function __construct() {
-        $this->dbhost = "127.0.0.1";
-	    $this->dbuser = "heka";
-        $this->dbpassword = "password";
-        $this->dbname = "dashboard";
+        $this->dbhost = "sql.itcn.dk";
+	    $this->dbuser = "tobi4882.SKOLE";
+        $this->dbpassword = "52b1TbWy5P";
+        $this->dbname = "tobi48822.SKOLE";
         $db = parent::_connect();
     }
 }

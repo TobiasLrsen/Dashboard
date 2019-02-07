@@ -1,0 +1,23 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public_html/index.html",
+//   "main": "public_html/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasLrsen/Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobiasLrsen/Dashboard/issues"
+  },
+  "homepage": "https://github.com/TobiasLrsen/Dashboard#readme",
+  "dependencies": {
+    "date-and-time": "^0.6.3"
+  }
+}

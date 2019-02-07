@@ -1,5 +1,5 @@
 <?php
-require_once filter_input(INPUT_SERVER, "DOCUMENT_ROOT") . "/cms/assets/incl/init.php";
+include "assets/incl/init.php";
 sysHeader();
 ?>
 

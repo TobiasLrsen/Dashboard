@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n* {\r\n    box-sizing: border-box;\r\n}\r\n.wrapper {\r\n    display: grid;\r\n    grid-template-columns: repeat(12, 1fr);\r\n    grid-template-rows: repeat(12, 1fr);\r\n    grid-gap: 1.5vw;\r\n    padding: 1.5vw;\r\n    width: 100%;\r\n    height: 100vh;\r\n    background: #222;\r\n}\r\n.clock {\r\n    grid-column: 6 / 7;\r\n    font-size: 50px;\r\n    \r\n    background: powderblue;\r\n}\r\n.date {\r\n    grid-column: 3 / 6;\r\n    grid-row: 1 / 2;\r\n    background: rgb(180, 170, 32);\r\n}\r\n.logo {\r\n    grid-column: 1 / 3;\r\n    grid-row: 1 / 2;\r\n    background: pink;\r\n}\r\n.news {\r\n    display: flex;\r\n    /* width: 100%; */\r\n    background: green;\r\n}\r\n\r\n.overview {\r\n    grid-column: 7 / -1;\r\n    grid-row: 1 / -1;\r\n    background: blue;\r\n}\r\n.graphics {\r\n    grid-column: 1 / 7;\r\n    grid-row: 7 / -1;\r\n\r\n    background: tomato;\r\n}\r\n.news {\r\n    grid-column: 1 / 7;\r\n    grid-row: 2 / 7;\r\n    background: steelblue;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CACd;;;AACD,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAW;CAC1B;;;AACD,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,eAAM;EAC7B,kBAAkB,EAAE,eAAM;EAC1B,QAAQ,EAAE,KAAM;EAChB,OAAO,EAAE,KAAM;EACf,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,IAAK;CACpB;;;AACD,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,KAAM;EACnB,SAAS,EAAE,IAAK;EAEhB,UAAU,EAAE,UAAW;CAC1B;;;AACD,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,KAAM;EACnB,QAAQ,EAAE,KAAM;EAChB,UAAU,EAAE,OAAG;CAClB;;;AACD,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,KAAM;EACnB,QAAQ,EAAE,KAAM;EAChB,UAAU,EAAE,IAAK;CACpB;;;AACD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAK;EACd,kBAAkB;EAClB,UAAU,EAAE,KAAM;CACrB;;;AAED,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,MAAO;EACpB,QAAQ,EAAE,MAAO;EACjB,UAAU,EAAE,IAAK;CACpB;;;AACD,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,KAAM;EACnB,QAAQ,EAAE,MAAO;EAEjB,UAAU,EAAE,MAAO;CACtB;;;AACD,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,KAAM;EACnB,QAAQ,EAAE,KAAM;EAChB,UAAU,EAAE,SAAU;CACzB",
+	"names": []
+}

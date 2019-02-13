@@ -1,10 +1,10 @@
  <?php
-   //$dns = "mysql:host=sql.itcn.dk;dbname=tobi4882.SKOLE;charset=utf8";
-   //$username = "tobi4882.SKOLE";
-   //$password = "52b1TbWy5P";
+   $dns = "mysql:host=sql.itcn.dk;dbname=tobi48822.SKOLE;charset=utf8";
+   $username = "tobi4882.SKOLE";
+   $password = "52b1TbWy5P";
    
-   //$db = new PDO($dns, $username, $password);
-   //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+   $db = new PDO($dns, $username, $password);
+   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
 ?>
 

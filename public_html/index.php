@@ -1,3 +1,13 @@
+ <?php
+   $dns = "mysql:host=sql.itcn.dk;dbname=tobi4882.SKOLE;charset=utf8";
+   $username = "tobi4882.SKOLE";
+   $password = "52b1TbWy5P";
+   
+   $db = new PDO($dns, $username, $password);
+   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+   
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,14 +22,14 @@
 <body>
     
 <section class="wrapper">
-    <div class="logo"><img src="/public_html/img/logo-horizontal-opt-med-tech-left.svg" alt="logo" /></div>
+    <div class="logo"><img src="img/logo-horizontal-opt-med-tech-left.svg" alt="logo" /></div>
     <div class="info">
         <!-- <div class="clock">8.17</div> -->
         <div class="date">Onsdag 6/2 <span>8.17</span></div>
     </div>
 
     <section class="graphics">
-        <img src="/public_html/img/lv.jpg" />
+        <img src="img/lv.jpg" />
     </section>
     <section class="news">
         <div class="news__feed">
@@ -124,10 +134,10 @@
     </section>
     <div class="map">
         <div class="map1">
-            <img src="/public_html/img/dummy.png" alt="hej" />
+            <img src="img/dummy.png" alt="hej" />
         </div>
         <div class="map2">
-            <img src="/public_html/img/dummy2.png" alt="hej2" />
+            <img src="img/dummy2.png" alt="hej2" />
         </div>
     </div>
 

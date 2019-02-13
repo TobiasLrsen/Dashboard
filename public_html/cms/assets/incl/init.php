@@ -2,7 +2,7 @@
 /* Global Tools */
 date_default_timezone_set('Europe/Copenhagen');
 define("DOCROOT", filter_input(INPUT_SERVER, "DOCUMENT_ROOT", FILTER_SANITIZE_STRING));
-define("COREPATH", substr(DOCROOT, 0, strrpos(DOCROOT, "public_html")) . DIRECTORY_SEPARATOR . "htdocs/Dashboard/core" . DIRECTORY_SEPARATOR);
+define("COREPATH", substr(DOCROOT, 0, strrpos(DOCROOT, "public_html")) . DIRECTORY_SEPARATOR . "Dashboard/core" . DIRECTORY_SEPARATOR);
 
 require_once COREPATH . 'constants.php';
 require_once COREPATH . 'functions.php';

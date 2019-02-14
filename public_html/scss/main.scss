@@ -9,13 +9,13 @@ $news-bg: rgba(255, 255, 255, 0);
 @font-face {
     font-family: 'FrutigerLTStd-Light';
     font-weight: 400;
-    src: local("FrutigerLTStd-Light"), local("FrutigerLTStd-Light"), url(../font/FrutigerLTStd-Light.ttf);
+    src: url(../font/FrutigerLTStd-Light.ttf);
     }
 
     @font-face {
     font-family: 'FrutigerLTStd-UltraBlack';
     font-weight: 400;
-    src: local("FrutigerLTStd-UltraBlack"), local("FrutigerLTStd-UltraBlack"), url(../font/FrutigerLTStd-UltraBlack.ttf);
+    src: url(../font/FrutigerLTStd-UltraBlack.ttf);
     }
 
 body {

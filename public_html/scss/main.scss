@@ -28,7 +28,7 @@ body {
 .logo {
     // grid-column: 7 / 9;
     // grid-row: 1 / 2;
-    grid-column: 1 / 4;
+    grid-column: 7 / 10;
     grid-row: 1 / 2;
     width: 80%;
     align-self: center;
@@ -36,7 +36,7 @@ body {
     // background: pink;
 }
 .info {
-    grid-column: 4 / 7;
+    grid-column: 10 / -1;
     grid-row: 1 / 2;
     display: grid;
     // grid-template-columns: 1fr 1fr 1fr;
@@ -72,7 +72,7 @@ body {
 }
 .news {
     grid-column: 1 / 7;
-    grid-row: 2 / 6;
+    grid-row: 1 / 4;
     // grid-column: 1 / 7;
     // grid-row: 7 / -1;
     display: grid;
@@ -123,7 +123,7 @@ body {
 
 .overview {
     grid-column: 7 / -1;
-    grid-row: 1 / -4;
+    grid-row: 2 / -1;
     display: grid;
     // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -228,7 +228,7 @@ body {
 }
 .graphics {
     grid-column: 1 / 7;
-    grid-row: 6 / -1;
+    grid-row: 4 / 10;
     // grid-column: 1 / 7;
     // grid-row: 2 / 7;
     overflow: hidden;
@@ -241,7 +241,7 @@ body {
 }
 
 .map {
-    grid-column: 7 / -1;
+    grid-column: 1 / 7;
     grid-row: span 3 / -1;
     background: #fdfdfd;
     padding: 15px;

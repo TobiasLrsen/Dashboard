@@ -91,6 +91,7 @@
             <div class="color"></div>
             <div class="">Klasse navn</div>
             <div class="">Lokale</div>
+            <div class="">Fag</div>
             <div class="center">Start tid</div>
         </div>
 <?php
@@ -178,6 +179,7 @@
         echo '<div class="color ' . $classColor . '"></div>';
         echo '<div class="class">'. $team .'<span> '. $rowData["vcClass"] .'</span></div>';
         echo '<div class="class__room">'. $rowData["vcClassroom"] .'</div>';
+        echo '<div class="class__fag">'. $rowData["vcSubject"] .'</div>';
         echo '<div class="class__time">' . $time . '</div>';
         echo '</div>';
         

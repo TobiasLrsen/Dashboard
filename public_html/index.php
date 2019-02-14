@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="600">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
     <!-- <script src="main.js"></script> -->
@@ -58,7 +59,23 @@
     </div>
 
     <section class="graphics">
-        <img src="img/lv.jpg" />
+        <img src="<?php 
+            $getMedieSql = "SELECT * FROM medie WHERE iMedieID = 1"; // 1 for video 2 for billede
+            $getMedie = $db->prepare($getMedieSql);
+            $getMedie->execute();
+            $rowMedie = $getMedie->fetchAll(PDO::FETCH_ASSOC);
+            
+            foreach ($rowMedie as $rowMedieData) {
+                echo $rowMedieData['vcFile'];
+            }
+
+        ?>" /> 
+
+    <iframe width="100%" height="100%" src="<?php echo $rowMedieData['vcFile'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+
+
+        
     </section>
     
     <section class="news">
@@ -304,6 +321,18 @@
     </div>
 
 </section>
+<!-- <script>
+function getdata() {
+    fetch("getActivities.php")
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+        });
+    }
 
+setInterval(getdata, 1000);
+</script> -->
 </body>
 </html>

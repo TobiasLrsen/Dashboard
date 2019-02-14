@@ -238,7 +238,13 @@ body {
 
     img {
         width: 100%;
+        display: none;
         object-fit: cover;
+    }
+
+    video {
+        width: 100%;
+        display: block;
     }
 }
 

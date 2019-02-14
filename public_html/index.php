@@ -12,7 +12,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
@@ -107,7 +107,7 @@
 
         
     foreach ($row as $rowData) {
-        $time = date("d/m — H:m", $rowData['daTime']);
+        $time = date("H:m – d/m", $rowData['daTime']);
         $strClass = $rowData['vcClass'];
         $team = '';
 
@@ -175,10 +175,7 @@
         
 
         echo '<div class="card">';
-        echo '<div class="color ' .
-             
-            $classColor
-        . '"></div>';
+        echo '<div class="color ' . $classColor . '"></div>';
         echo '<div class="class">'. $team .'</span> - '. $rowData["vcClass"] .'</span></div>';
         echo '<div class="class__room">'. $rowData["vcClassroom"] .'</div>';
         echo '<div class="class__time">' . $time . '</div>';

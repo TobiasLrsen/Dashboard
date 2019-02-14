@@ -34,6 +34,7 @@ body {
     grid-row: 1 / 2;
     width: 50%;
     align-self: center;
+    justify-self: right;
 
     img {
         width: 100%;
@@ -208,7 +209,6 @@ body {
         
 
         .class {
-            // padding: 0.5vw 0;
             padding: 0;
             border-right: 1px solid rgba(0, 0, 0, 0.2);
 

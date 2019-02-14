@@ -16,36 +16,36 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  grid-gap: 1.5vw;
+  grid-column-gap: 1.5vw;
   padding: 1.5vw;
   width: 100%;
   height: 100vh;
   background: #212121;
 }
 
-/* line 28, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 30, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .logo {
-  grid-column: 7 / 10;
+  grid-column: 10 / -1;
   grid-row: 1 / 2;
   width: 50%;
   align-self: center;
 }
 
-/* line 36, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 38, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .logo img {
   width: 100%;
 }
 
-/* line 42, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 44, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .info {
-  grid-column: 10 / -1;
+  grid-column: 8 / 10;
   grid-row: 1 / 2;
   display: grid;
   grid-gap: 0 1vw;
   align-items: baseline;
 }
 
-/* line 50, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 52, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .info .clock {
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ body {
   font-size: 3vw;
 }
 
-/* line 61, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 63, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .info .date {
   display: flex;
   justify-content: center;
@@ -62,38 +62,41 @@ body {
   font-size: 2vw;
 }
 
-/* line 71, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 73, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .info .date span#telltime {
   font-size: 3vw;
   padding-left: 16px;
 }
 
-/* line 77, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 79, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
   grid-row: 7 / 10;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 1.5vw 0;
   /* width: 100%; */
 }
 
-/* line 87, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 90, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed {
   background: rgba(255, 255, 255, 0);
   width: 100%;
   border-radius: 3px;
 }
 
-/* line 93, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 96, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed:first-of-type {
   border-right: 1px solid rgba(0, 0, 0, 0.25);
   padding-right: 16px;
 }
+
+/* line 101, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed:last-of-type {
   padding-left: 16px;
 }
 
-/* line 97, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 105, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed-title {
   font-weight: 300;
   font-size: 130%;
@@ -101,7 +104,7 @@ body {
   padding: 0;
 }
 
-/* line 106, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 114, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed .hr {
   width: 100%;
   height: 1px;
@@ -110,21 +113,21 @@ body {
   display: block;
 }
 
-/* line 115, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 123, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed-content {
   opacity: 0.85;
 }
 
-/* line 118, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 126, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .news__feed-content p {
   font-weight: 300;
   font-size: 80%;
   margin: 0.5vw 0;
 }
 
-/* line 128, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 136, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview {
-  grid-column: 7 / -1;
+  grid-column: 8 / -1;
   grid-row: 2 / -1;
   display: grid;
   grid-row: 1fr;
@@ -135,13 +138,13 @@ body {
   border-radius: 3px;
 }
 
-/* line 145, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 153, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card-header {
   color: white;
   align-self: flex-end;
 }
 
-/* line 149, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 157, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card, .overview .card-header {
   display: grid;
   grid-template-columns: 7% 1fr 0.5fr 0.5fr;
@@ -150,77 +153,77 @@ body {
   font-size: 100%;
 }
 
-/* line 158, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 166, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .fri {
   background: #eee;
   opacity: 0.35;
   filter: grayscale(100%);
 }
 
-/* line 163, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 171, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card {
   background: #eee;
   border-radius: 1000px;
   color: #000;
 }
 
-/* line 169, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 177, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card:nth-of-type(2n) {
   background: #fdfdfd;
   color: #222;
 }
 
-/* line 174, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 182, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .color {
   height: 100%;
   border-radius: 1000px 0 0 1000px;
   margin-left: -1px;
 }
 
-/* line 183, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 191, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .extra {
   background: #555;
 }
 
-/* line 186, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 194, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .web {
   background: #c12020;
 }
 
-/* line 189, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 197, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .grafikker {
   background: #9916b1;
 }
 
-/* line 193, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 201, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .dm {
   background: #84b12a;
 }
 
-/* line 197, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 205, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .trykkere {
   background: #009bb9;
 }
 
-/* line 202, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 210, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .class {
   padding: 0;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 207, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 215, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .class span {
   font-size: 60%;
   display: block;
 }
 
-/* line 214, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 222, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .class__room {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0.5vw 0;
 }
 
-/* line 219, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 227, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .class__time {
   justify-self: center;
   padding: 0.5vw 0;
@@ -228,29 +231,29 @@ body {
   font-size: 80%;
 }
 
-/* line 229, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 236, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .center {
   text-align: center;
   margin-left: -1vw;
 }
 
-/* line 233, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 240, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .graphics {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
   grid-row: 1 / 7;
   overflow: hidden;
   border-radius: 3px;
 }
 
-/* line 241, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 248, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .graphics img {
   width: 100%;
   object-fit: cover;
 }
 
-/* line 247, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 254, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
   grid-row: span 3 / -1;
   background: #fdfdfd;
   padding: 15px;
@@ -261,12 +264,12 @@ body {
   border-radius: 3px;
 }
 
-/* line 258, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 265, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map .map1 {
   grid-column: span 2;
 }
 
-/* line 262, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 269, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map img {
   width: 100%;
 }

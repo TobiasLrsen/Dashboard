@@ -20,7 +20,8 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     // grid-gap: 1.5vw;
-    grid-row-gap: 1.5vw;
+    grid-column-gap: 1.5vw;
+    // grid-row-gap: 1.5vw;
     padding: 1.5vw;
     width: 100%;
     height: 100vh;

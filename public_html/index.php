@@ -176,7 +176,7 @@
 
         echo '<div class="card">';
         echo '<div class="color ' . $classColor . '"></div>';
-        echo '<div class="class">'. $team .'</span> - '. $rowData["vcClass"] .'</span></div>';
+        echo '<div class="class">'. $team .'<span> - '. $rowData["vcClass"] .'</span></div>';
         echo '<div class="class__room">'. $rowData["vcClassroom"] .'</div>';
         echo '<div class="class__time">' . $time . '</div>';
         echo '</div>';

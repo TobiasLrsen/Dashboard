@@ -148,7 +148,7 @@ body {
 /* line 158, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card, .overview .card-header {
   display: grid;
-  grid-template-columns: 7% 1fr 0.5fr 0.5fr;
+  grid-template-columns: 5% 1fr 0.8fr 0.5fr 0.5fr;
   grid-gap: 1vw;
   align-items: center;
   font-size: 100%;
@@ -225,6 +225,12 @@ body {
 }
 
 /* line 227, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+.overview .card .class__fag {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5vw 0;
+}
+
+/* line 232, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .overview .card .class__time {
   justify-self: center;
   padding: 0.5vw 0;
@@ -232,13 +238,13 @@ body {
   font-size: 80%;
 }
 
-/* line 236, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 241, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .center {
   text-align: center;
   margin-left: -1vw;
 }
 
-/* line 240, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 245, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .graphics {
   grid-column: 1 / 8;
   grid-row: 1 / 7;
@@ -246,13 +252,13 @@ body {
   border-radius: 3px;
 }
 
-/* line 248, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 253, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .graphics img {
   width: 100%;
   object-fit: cover;
 }
 
-/* line 254, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 259, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map {
   grid-column: 1 / 8;
   grid-row: span 3 / -1;
@@ -265,12 +271,12 @@ body {
   border-radius: 3px;
 }
 
-/* line 265, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 270, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map .map1 {
   grid-column: span 2;
 }
 
-/* line 269, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
+/* line 274, C:/Users/cjuul/Desktop/git/Dashboard/public_html/scss/main.scss */
 .map img {
   width: 100%;
 }

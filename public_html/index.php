@@ -108,7 +108,7 @@
 
         
     foreach ($row as $rowData) {
-        $time = date("H:m – d/m", $rowData['daTime']);
+        $time = date("H:i – d/m", $rowData['daTime']);
         $strClass = $rowData['vcClass'];
         $team = '';
 

@@ -64,7 +64,7 @@ body {
         // text-align: right;
         text-align: center;
         font-size: 2vw;
-        span {
+        span#telltime {
             font-size: 3vw;
             padding-left: 16px;
         }
@@ -175,25 +175,25 @@ body {
             margin-left: -1px;
             // border-radius:  1000px;
         }
+
+        .extra {
+            background: #555;
+        }
         .web {
-            background: steelblue;
+            background: #c12020;
         }
         .grafikker {
-            background: red;
+            background: #9916b1;
+        }
+
+        .dm {
+            background: #84b12a;
         }
 
         .trykkere {
-            background: green;
+            background: #009bb9;
         }
-        .gf2web {
-            background: blueviolet;
-        }
-        .gf2grafikker {
-            background: orangered;
-        }
-        .gf1 {
-            background: purple;
-        }
+        
 
         .class {
             // padding: 0.5vw 0;

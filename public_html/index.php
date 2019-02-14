@@ -100,7 +100,7 @@
                         "LEFT JOIN mh_subject s " .
                         "ON a.vcSubject = s.vcName " .
                         "WHERE daTime > UNIX_TIMESTAMP() " .
-                        "ORDER BY a.daTime LIMIT 10";
+                        "ORDER BY a.daTime LIMIT 16";
       $getContent = $db->prepare($sql);
       $getContent->execute();
       $row = $getContent->fetchAll(PDO::FETCH_ASSOC);
@@ -291,10 +291,13 @@
     </section>
     <div class="map">
         <div class="map1">
-            <img src="img/dummy.png" alt="hej" />
+            <img src="img/kortTekstVVV.svg" alt="hej" />
         </div>
         <div class="map2">
-            <img src="img/dummy2.png" alt="hej2" />
+            <img src="img/kortoverstue.svg" alt="hej2" />
+        </div>
+        <div class="map3">
+            <img src="img/kortoverfQrsteEtage.svg" alt="hej2" />
         </div>
     </div>
 

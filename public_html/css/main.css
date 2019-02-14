@@ -24,9 +24,12 @@ body {
 .logo {
   grid-column: 7 / 10;
   grid-row: 1 / 2;
-  width: 80%;
+  width: 50%;
   -ms-flex-item-align: center;
       align-self: center;
+}
+.logo img {
+  width: 100%;
 }
 
 .info {

@@ -21,7 +21,7 @@
 <body>
     
 <section class="wrapper">
-    <div class="logo"><img src="img/logo-horizontal-opt-med-tech-left.svg" alt="logo" /></div>
+    <div class="logo"><img src="img/logo/logo.svg" alt="logo" /></div>
     <div class="info">
         <!-- <div class="clock">8.17</div> -->
         <div class="date"><span id="tellDate"></span> <span id="telltime"></span></div>

@@ -310,7 +310,7 @@
     </section>
     <div class="map">
         <div class="map1">
-            <img src="img/kortTekstVVV.svg" alt="hej" />
+            <img src="img/kortTekst.svg" alt="hej" />
         </div>
         <div class="map2">
             <img src="img/kortoverstue.svg" alt="hej2" />

@@ -13,6 +13,7 @@ body {
   padding: 0;
   font-family: 'FrutigerLTStd-Light', sans-serif;
   color: #fff;
+  font-size: 1vw;
 }
 
 * {
@@ -170,7 +171,7 @@ body {
 .overview .card .color {
   height: 100%;
   border-radius: 1000px 0 0 1000px;
-  margin-left: -1px;
+  margin-left: -3px;
 }
 .overview .card .extra {
   background: #555;

@@ -71,7 +71,7 @@
 
         ?>" /> 
 
-    <iframe width="100%" height="100%" src="<?php echo $rowMedieData['vcFile'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <iframe width="100%" height="100%" src="<?php echo $rowMedieData['vcFile'] ?>?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 
 
